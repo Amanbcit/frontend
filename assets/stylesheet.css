@@ -19,13 +19,11 @@ body {
   box-shadow: 2px 8px 10px hsla(230, 89%, 31%, 0.472);
   background-color: rgba(191, 211, 176, 0.706);
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   width: 60vw;
-  overflow: auto;
-  min-height: 80vh;
+  overflow: visible;
   display: flex;
   flex-direction: column;
-  justify-content: center;
     
 }
 
