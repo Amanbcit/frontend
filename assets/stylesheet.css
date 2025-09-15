@@ -19,8 +19,8 @@ body {
   box-shadow: 2px 8px 10px hsla(230, 89%, 31%, 0.472);
   background-color: rgba(191, 211, 176, 0.706);
   border-radius: 10px;
-  padding: 1rem 0.5rem;
-  width: 60vw;
+  padding: 1rem;
+  width: 90vw;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -38,12 +38,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
   margin-bottom: 1rem;
   padding: 0.5rem;
   box-shadow: 0 4px 8px #78787b;
   text-shadow: 4px 8px 10px #201717ee;
   border-radius: 0.5rem;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease-in;
   background-color: #6b63ffe2;
 }
 
@@ -58,7 +60,7 @@ body {
   padding: 0.7rem;
   margin: 0.5rem;
   border-radius: 1rem;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease-in;
 }
 
 h2, h3 {
@@ -99,19 +101,20 @@ footer {
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px #64626286;
+  transition: all 0.3s ease-in;
 }
 
 /* Hover effect for about and interest sections */
 .bginterest:hover, .bgabout:hover {
   box-shadow: 4px 12px 15px hsla(230, 89%, 31%, 0.692);
-  transition: all 0.2s ease;
+  transition: all 0.3s ease-in;
   transform: translateY(-5px);
-  font-size: large;
+  
 }
 
 footer:hover {
   box-shadow: 0 4px 8px #6b63ff3b;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
   transform: translateY(-3px);
   font-size: large;
 }
@@ -138,7 +141,7 @@ footer:hover {
     text-transform: capitalize;
     color: #6b63ff;
     box-shadow: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;
     background-color: transparent;
     text-shadow: 4px 8px 10px #fcf7f7;
 
@@ -161,5 +164,6 @@ footer:hover {
     box-shadow: 0 4px 8px #6b63ff3b;
     font-size: 1rem;
     text-align: center;
+   
   }
 }
